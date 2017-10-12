@@ -42,7 +42,7 @@ public class DatabaseManager {
         try {
             //establishes a connection to the Database
             Connection con;
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + databaseName, "root", "ved0175");    //connects and authenticates into the desired Database
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + databaseName, "root", "root");    //connects and authenticates into the desired Database
 
             Statement stmt;
             stmt = con.createStatement();
@@ -86,7 +86,7 @@ public class DatabaseManager {
         try {
             //establishes a connection to the desired Database, and authenticates the root admin
             Connection connection;
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + databaseName, "root", "ved0175");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + databaseName, "root", "root");
 
             //initializes the 'statement' variable that will be used to run the desired SQL statement
             Statement statement;
