@@ -1,7 +1,7 @@
 This is a framework class that offers some basic functionality into the Java Database Connectivity (JDBC). It features the following methods or function: 
 
 <ol>
-<li><em>**setName(String tableName)**</em> - Setter function for the variable 'databaseName'</li>
+<li>**<em>setName(String tableName)</em>** - Setter function for the variable 'databaseName'</li>
 <li><em>**getName()**</em> - Getter function for the variable 'databaseName'</li>
 <li><em>**getDatabaseMatrix(String tableName)**</em> -  Returns a two-dimensional vector of all the items in a specified table within the current database.. </li>
 <li><em>**addToDatabase(ArrayList<Object> rowList, String tableName)**</em> - Calls another private function that formats an SQL statement to append a row to the database, and runs the JDBC code tied to running and executing this formatted statement
